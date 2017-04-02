@@ -8,7 +8,7 @@ const SpellPosts = ({posts}) => (
         <li className="panel-body" dangerouslySetInnerHTML={{ __html: post.desc }} ></li>
         <li className="panel-body"><strong>page: </strong>{post.page}</li>
         <li className="panel-body"><strong>range: </strong>{post.range}</li>
-        <li className="panel-body"><strong>req' components: </strong>{post.components}</li>
+        <li className="panel-body"><strong>req components: </strong>{post.components}</li>
         <li className="panel-body"><strong>mats: </strong>{post.material}</li>
         <li className="panel-body"><strong>ritual: </strong>{post.ritual}</li>
         <li className="panel-body"><strong>duration: </strong>{post.duration}</li>
